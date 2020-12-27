@@ -12,10 +12,8 @@ public class Main {
 		
 		String str = "<<<^v<>";
 		//String str = "<<<";
-		
 		//String str = "^vv<v";
 		
-	
 		
 		int result = (int) (str.length() - IntStream.range(0, str.length())
 													.mapToObj(i -> str.charAt(i))
